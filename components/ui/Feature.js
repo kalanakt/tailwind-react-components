@@ -7,9 +7,9 @@ function Feature(){
         <div className="flex min-h-screen items-center justify-center p-10 bg-white dark:bg-black pt-8 md:pt-20">
   <div className="container grid max-w-screen-xl gap-8 lg:grid-cols-2 lg:grid-rows-2">
     <div className="row-span-2 flex flex-col rounded-md border border-slate-200 dark:border-slate-900">
-      <div className="relative hidden h-1/3 w-full overflow-hidden lg:block">
-        <div className="absolute top-0">
-            <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/c43307b88fb814366e4f3a181c788796cba83faa/4c05c/new/landing/omnichannel.png" className="h-full w-full object-cover object-right-top" alt="omnichannel" />
+      <div className="relative hidden h-full w-full overflow-hidden lg:block">
+        <div className="absolute inset-0 top-0">
+          <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/c43307b88fb814366e4f3a181c788796cba83faa/4c05c/new/landing/omnichannel.png" className="h-full w-full object-cover object-left-top" alt="hbf" height={200} width={2000}  layout='fill' />
         </div>
       </div>
       <div className="p-10">
@@ -26,9 +26,9 @@ function Feature(){
       </div>
 
       <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">
-        <div className="absolute inset-0">
+        {/* <div className="absolute inset-0">
           <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/e5290c26cc1703e54e0afe3d1472046098ecd819/53775/new/landing/live-chat.png" className="h-full w-full object-cover object-left-top" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="flex rounded-md border border-slate-200 dark:border-slate-900">
@@ -39,9 +39,9 @@ function Feature(){
       </div>
 
       <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">
-        <div className="absolute inset-0">
+        {/* <div className="absolute inset-0">
           <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/1205a454c4b64452a51930c9b0043f8db9ff8271/d202e/new/landing/chat-bot.png" className="h-full w-full object-cover object-left-top" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
