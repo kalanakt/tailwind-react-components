@@ -12,8 +12,8 @@ export default function Home(props) {
           <Container>
             <Hero />
           </Container>
-          {/* <Product />
-          <Feature /> */}
+          <Product />
+          <Feature />
         </Layout>
     </>
   );
