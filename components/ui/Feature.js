@@ -7,8 +7,10 @@ function Feature(){
         <div className="flex min-h-screen items-center justify-center p-10 bg-white dark:bg-black pt-8 md:pt-20">
   <div className="container grid max-w-screen-xl gap-8 lg:grid-cols-2 lg:grid-rows-2">
     <div className="row-span-2 flex flex-col rounded-md border border-slate-200 dark:border-slate-900">
-      <div className="h-1/2 flex-1">
-        <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/c43307b88fb814366e4f3a181c788796cba83faa/4c05c/new/landing/omnichannel.png" className="h-full w-full object-cover object-right-top" alt="omnichannel" />
+      <div className="relative hidden h-1/3 w-full overflow-hidden lg:block">
+        <div className="absolute top-0">
+            <Image loader={myLoader} src="https://d33wubrfki0l68.cloudfront.net/c43307b88fb814366e4f3a181c788796cba83faa/4c05c/new/landing/omnichannel.png" className="h-full w-full object-cover object-right-top" alt="omnichannel" />
+        </div>
       </div>
       <div className="p-10">
         <h3 className="text-xl font-medium text-gray-700">Omnichannel support center</h3>
