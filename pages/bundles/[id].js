@@ -38,8 +38,7 @@ export const bundles = [
   },
 ];
 
-export default function Bundle(props) {
-  console.log(props.project);
+function Bundle(props) {
   return (
     <Layout>
     <div className="bg-white dark:bg-black">
@@ -100,3 +99,6 @@ export async function getServerSideProps({ query }) {
     },
   };
 }
+
+
+export default Bundle

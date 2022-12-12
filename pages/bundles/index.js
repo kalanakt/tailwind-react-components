@@ -14,7 +14,7 @@ export default function Bundle() {
 			  70 % OFF
 			</p>
 		  </div>
-		  <h2 className="max-w-lg mb-6 text-gray-800 dark:text-gray-200 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+		  <h2 className="max-w-lg mb-6 text-gray-800 dark:text-gray-200 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
 			<span className="relative inline-block">
 			  <svg
 				viewBox="0 0 52 24"
@@ -92,7 +92,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				href="/"
 				className="bg-blue-600 rounderd-lg inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
 			  >
-				Buy Mega Bundle
+				<span>Buy Mega Bundle</span>
 			  </Link>
 			</div>
 		  </div>
@@ -138,7 +138,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				href="/"
 				className="bg-blue-600 rounderd-lg inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
 			  >
-				Buy Mega Mobile Bundle
+				<span>Buy Mega Mobile Bundle</span>
 			  </Link>
 			</div>
 		  </div>
@@ -184,7 +184,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				href="/"
 				className="bg-blue-600 rounderd-lg inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
 			  >
-				Buy React Bundle
+				<span>Buy React Bundle</span>
 			  </Link>
 			</div>
 		  </div>
@@ -230,7 +230,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				href="/"
 				className="bg-blue-600 rounderd-lg inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
 			  >
-				Buy Vue Bundle
+				<span>Buy Vue Bundle</span>
 			  </Link>
 			</div>
 		  </div>

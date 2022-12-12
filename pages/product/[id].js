@@ -143,7 +143,7 @@ function SingleProduct(props) {
               </p>
               <Link href="/contact" passHref={true}>
                 <div className="inline-flex items-center text-blue-600 hover:underline">
-                  Contact Us
+                  <span>Contact Us</span>
                   <svg
                     className="w-5 h-5 ml-2"
                     fill="currentColor"
