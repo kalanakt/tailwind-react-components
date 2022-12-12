@@ -3,7 +3,7 @@ import { myLoader } from "@utils/all";
 import Link from 'next/link';
 
 
-function Footer() {
+function Footer(props) {
   return (
       <footer aria-label="Site Footer" className="bg-transparent pt-8 md:pt-20">
         <div

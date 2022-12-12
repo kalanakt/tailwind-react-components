@@ -25,7 +25,7 @@ import { mobile } from 'data/mobile'
 import { bundels } from 'data/bundle'
 import ThemeSwitch from "@components/themeSwitch";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div className="top-0 border-b border-gray-200 dark:border-gray-900 shadow-md sticky bg-transparent bg-opacity-50 backdrop-blur backdrop-filter  firefox:bg-opacity-90 z-10">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
