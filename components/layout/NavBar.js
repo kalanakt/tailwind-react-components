@@ -7,7 +7,6 @@ import GetImage from "@utils/getImage";
 import { myLoader } from "@utils/all";
 import Logo from "public/Logo";
 import Github from "public/icons/Github";
-import ThemeSwitch from "./themeSwitch";
 import IconAdminD from "public/icons/navbar/IconAdminD";
 import IconAngular from "public/icons/navbar/IconAngular";
 import IconBootsrap from "public/icons/navbar/IconBootsrap";
@@ -24,6 +23,7 @@ import IconBlog from "public/icons/navbar/IconBlog";
 import { templates } from 'data/templates'
 import { mobile } from 'data/mobile'
 import { bundels } from 'data/bundle'
+import ThemeSwitch from "@components/themeSwitch";
 
 function NavBar() {
   return (
