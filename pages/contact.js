@@ -10,7 +10,7 @@ import {
   MailIcon,
   PhoneIcon
 } from "@heroicons/react/outline";
-export default function Contact({ siteconfig }) {
+function Contact({ siteconfig }) {
   const {
     register,
     handleSubmit,
@@ -222,3 +222,5 @@ export async function getStaticProps({ params, preview = false }) {
     revalidate: 100
   };
 }
+
+export default Contact

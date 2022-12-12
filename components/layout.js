@@ -2,13 +2,10 @@ import React from "react";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import GetImage from "@utils/getImage";
-// import Navbar from "@components/navbar";
-
+import Navbar from "@components/navbar";
 // import defaultOG from "../public/img/og-default.jpg";
 
-// import Footer from "@components/footer";
-import NavBar from "./layout/NavBar";
-import Footer from "./layout/Footer";
+import Footer from "@components/footer";
 // import PopupWidget from "../components/popupWidget";
 
 export default function Layout(props) {
@@ -46,10 +43,10 @@ export default function Layout(props) {
       />
 
       <div className="antialiased text-gray-800 dark:bg-black dark:text-gray-400">
-        <NavBar/>
+        <Navbar {...props} />
         <div>{children}</div>
 
-        <Footer/>
+        <Footer {...props} />
       </div>
     </>
   );
