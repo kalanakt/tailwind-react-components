@@ -56,11 +56,7 @@ function NavBar(props) {
                   <span className="peer text-black dark:text-white font-semibold text-md cursor-pointer">
                     Templates
                   </span>
-                  <div className="hidden absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
-                    <div className="py-5 capitalize flex flex-col text-gray-900 dark:text-gray-100">
-                      <span>fully custermizeble $ SEO+ Web Site Themes.</span>
-                      <span></span>
-                    </div>
+                  <div className="hidden pt-8 absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
                     <div className="grid gap-3 grid-cols-1">
                       {templates.map((item) => (
                         <Link
@@ -70,7 +66,7 @@ function NavBar(props) {
                           as={"/templates/" + item.id}
                           >
                           <div className="p-2 dark:hover:bg-gray-900 flex items-center rounded-lg transition cursor-pointer duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
-                            <div className="flex h-10 w-10 shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
+                            <div className="flex h-8 w-8 shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
                               <item.icon aria-hidden="true" />
                             </div>
                             <div className="ml-4">
@@ -92,16 +88,7 @@ function NavBar(props) {
                   <span className="peer text-black dark:text-white font-semibold text-md cursor-pointer">
                     Apps
                   </span>
-                  <div className="hidden absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
-                    <div className="py-5 capitalize flex flex-col text-gray-900 dark:text-gray-100">
-                      <span>
-                        fully custermizeble Mobile & Desktop Aplications,
-                      </span>
-                      <span>
-                        {" "}
-                        developed by using fluter, dart & React Native
-                      </span>
-                    </div>
+                  <div className="hidden pt-8 absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
                     <div className="grid gap-3 grid-cols-1">
                       {mobile.map((item) => (
                         <Link
@@ -135,11 +122,7 @@ function NavBar(props) {
                       Bundle
                     </span>
                   </Link>
-                  <div className="hidden absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
-                    <div className="py-5 capitalize flex flex-col text-gray-900 dark:text-gray-100">
-                      <span>Best Offer For Start Your ptoject</span>
-                      <span>75 % OFF</span>
-                    </div>
+                  <div className="hidden pt-8 absolute p-4 bg-white dark:bg-black peer-hover:flex hover:flex w-fit flex-col rounded-md border border-gray-200 dark:border-gray-600 drop-shadow-lg">
                     <div className="grid gap-3 grid-cols-1">
                       {bundels.map((item) => (
                         <Link
@@ -193,6 +176,7 @@ function NavBar(props) {
             </nav>
           </div>
 
+          <div className="flex flex-row items-center gap-2">
           <div className="block">
             <ThemeSwitch />
           </div>
@@ -214,6 +198,7 @@ function NavBar(props) {
                 />
               </svg>
             </button>
+          </div>
           </div>
         </div>
       </div>

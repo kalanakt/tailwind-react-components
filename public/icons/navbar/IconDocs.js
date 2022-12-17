@@ -2,6 +2,8 @@ export default function IconDocs() {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
         viewBox="0 0 512.001 512.001"
         style={{
           enableBackground: "new 0 0 512.001 512.001",

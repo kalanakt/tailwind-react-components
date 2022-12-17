@@ -64,24 +64,28 @@ function Bundle(props) {
             src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
             className="rounded-lg bg-gray-100"
+            layout='fill'
           />
           <Image
             loader={myLoader}
             src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
             alt="Top down view of walnut card tray with embedded magnets and card groove."
             className="rounded-lg bg-gray-100"
+            layout='fill'
           />
           <Image
             loader={myLoader}
             src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
             alt="Side of walnut card tray with card groove and recessed card area."
             className="rounded-lg bg-gray-100"
+            layout='fill'
           />
           <Image
             loader={myLoader}
             src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
             alt="Walnut card tray filled with cards and card angled in dedicated groove."
             className="rounded-lg bg-gray-100"
+            layout='fill'
           />
         </div>
       </div>

@@ -16,15 +16,16 @@ const ThemeSwitch = () => {
   //   }
 
   return (
-    <div className="inline-flex items-center">
+    <div className="shadow-md inline-flex py-1 px-3 outline-none focus:outline-none rounded-md items-center border border-gray-200 dark:border-gray-800">
       <SunIcon className="w-4 h-4 mr-2" />
       <select
         name="themeSwitch"
+        className="bg-transparent rounded-md outline-none focus:outline-none"
         value={theme}
         onChange={e => setTheme(e.target.value)}>
-        <option value="system">System</option>
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
+        <option className="bg-transparent rounded-t-md" value="system">System</option>
+        <option className="bg-transparent" value="dark">Dark</option>
+        <option className="bg-transparent rounded-b-md px-4" value="light">Light</option>
       </select>
     </div>
   );

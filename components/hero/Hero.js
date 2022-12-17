@@ -17,11 +17,11 @@ export default function Hero() {
 
 	                <div className="hidden md:flex flex-row justify-start space-x-4 pt-10">
 	                    <HButton link="/components" title="Browse Components" />
-	                    <HButton link="/templates" title="Explor Categories" />
+	                    <HButton link="/product" title="Explor Products" />
 	                </div>
 	                <div className="flex md:hidden flex-row justify-start space-x-4 pt-10">
 	                    <HButton link="/components" title="Components" />
-	                    <HButton link="/templates" title="Categories" />
+	                    <HButton link="/product" title="Products" />
 	                </div>
 	            </div>
 	        </div>

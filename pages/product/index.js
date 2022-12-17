@@ -1,8 +1,9 @@
 import HButton from "@components/hero/HButton";
 import { Data } from "data/Data";
 import { SetStateAction, useState } from "react";
-import Filter from "./Filter";
-import SearchList from "./SearchList";
+import Filter from "@components/product/Filter";
+import SearchList from "@components/product/SearchList";
+import Layout from "@components/layout";
 
 function Product() {
     const [searchField, setSearchField] = useState("");
@@ -41,47 +42,19 @@ function Product() {
     function searchList() {
         if (searchShow) {
             return (
-            <SearchList searchShow={searchShow} filteredProduct={filteredProduct.slice(0, 6)} />
+            <SearchList searchShow={searchShow} filteredProduct={filteredProduct} />
             );
         } else {
             return (
-            <SearchList searchShow={searchShow} filteredProduct={filteredProductn.slice(0, 6)} />
+            <SearchList searchShow={searchShow} filteredProduct={filteredProductn} />
             );
         }
         }
 
-    function seeAllButton(){
-      if (searchShow && filteredProduct.length > 6){
-        return(
-          <div onClick={seeall} className="mt-4 md:mt-8 flex justify-center items-center">
-            <HButton link="" title={seeAll ? "Minimize Results" : "See All Results"} />
-          </div>
-        )
-      }
-      else if (!searchShow) {
-        return(
-          <div className="mt-4 md:mt-8 flex flex-col justify-center items-center">
-            <HButton link="/product" title="See All Products" style="px-10"/>
-          </div>
-        )
-      }
-    }
-
-    function seeall(){
-      setSeeAll(!seeAll)
-    }
-
-    function allList(){
-      if (seeAll && filteredProduct.length > 6) {
-        return (
-        <SearchList searchShow={searchShow} filteredProduct={filteredProduct.slice(6)} />
-        );
-    }
-    }
-
     return(
-        <div className="h-fit flex flex-col mx-2 md:mx-28">
-          <div className="w-fit px-8 md:w-3/6 shadow-md bg-transparent mx-auto rounded flex flex-col md:flex-row gap-2 p-3 border border-gray-200 dark:border-gray-800">
+      <Layout>
+        <div className="h-fit py-8 md:py-20 flex flex-col mx-2 md:mx-28">
+          <div className="w-3/6 shadow-md bg-transparent mx-auto rounded flex flex-row gap-2 p-3 border border-gray-200 dark:border-gray-800">
             <input
                 onChange={handleChange}
                 className="w-full text-sm py-2 rounded-lg sm:text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light border-none outline-none focus:outline-none bg-transparent"
@@ -97,7 +70,8 @@ function Product() {
           <div className="pt-4 md:pt-8 lg:pt-12">
           {searchList()}
           </div>
-    </div>
+      </div>
+    </Layout>
     )
 }
 

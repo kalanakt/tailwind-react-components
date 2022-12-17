@@ -19,7 +19,7 @@ export default function Bundle() {
 			  <svg
 				viewBox="0 0 52 24"
 				fill="currentColor"
-				className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+				className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"4
 			  >
 				<defs>
 				  <pattern
@@ -55,6 +55,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				src="https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
 				className="object-cover w-full h-full rounded-t"
 				alt="Plan"
+				layout='fill'
 			  />
 			</div>
 			<div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b border-gray-300 dark:border-gray-700">
@@ -103,6 +104,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				src="https://images.pexels.com/photos/3183181/pexels-photo-3183181.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
 				className="object-cover w-full h-full rounded-t"
 				alt="Plan"
+				layout='fill'
 			  />
 			</div>
 			<div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b border-gray-300 dark:border-gray-700">
@@ -149,6 +151,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				src="https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
 				className="object-cover w-full h-full rounded-t"
 				alt="Plan"
+				layout='fill'
 			  />
 			</div>
 			<div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b border-gray-300 dark:border-gray-700">
@@ -195,6 +198,7 @@ components / UI Elements, and plenty more, at 70% discount.
 				src="https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
 				className="object-cover w-full h-full rounded-t"
 				alt="Plan"
+				layout='fill'
 			  />
 			</div>
 			<div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b border-gray-300 dark:border-gray-700">
