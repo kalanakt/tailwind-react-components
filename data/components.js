@@ -16,27 +16,27 @@ export const components = [
                         name: "Mega Bundle",
                         description: "50+ Premium Dashboads And Themes",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -48,27 +48,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -80,27 +80,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -112,27 +112,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -144,27 +144,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -184,27 +184,27 @@ export const components = [
                         name: "Mega Bundle",
                         description: "50+ Premium Dashboads And Themes",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -216,27 +216,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -248,27 +248,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -280,27 +280,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -312,27 +312,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -352,27 +352,27 @@ export const components = [
                         name: "Mega Bundle",
                         description: "50+ Premium Dashboads And Themes",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -384,27 +384,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -416,27 +416,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -448,27 +448,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -480,27 +480,27 @@ export const components = [
                           description: "50+ Premium Dashboads And Themes",
                           category: "Cards",
                           search: "book blog",
-                          htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                          <div class="relative pt-[50%]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                            <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                          htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                          <div className="relative pt-[50%]">
+                            <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                            <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                           </div>
-                          <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                            <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                            <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                          <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                            <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                            <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                           </div>
                         </a>`,
-                        reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
                         <a>
                         `,
-                        vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                  <div class="relative pt-[50%]">
-                                    <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                    <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                  <div className="relative pt-[50%]">
+                                    <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                    <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                   </div>vue
                                 </a>`,
                         isfree: true,
@@ -528,27 +528,27 @@ export const components = [
                       name: "Mega Bundle",
                       description: "50+ Premium Dashboads And Themes",
                       search: "book blog",
-                      htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
-                      <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                        <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                        <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                      <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                        <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                        <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                       </div>
                     </a>`,
-                    reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                    <div class="relative pt-[50%]">
-                      <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                      <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                    <div className="relative pt-[50%]">
+                      <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                      <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                     </div>
                     <a>
                     `,
-                    vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                              <div class="relative pt-[50%]">
-                                <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                              <div className="relative pt-[50%]">
+                                <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                               </div>vue
                             </a>`,
                     isfree: true,
@@ -560,27 +560,27 @@ export const components = [
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -592,27 +592,27 @@ export const components = [
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -624,27 +624,27 @@ export const components = [
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -656,27 +656,27 @@ export const components = [
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -696,27 +696,27 @@ description: "best vc",
                       name: "Mega Bundle",
                       description: "50+ Premium Dashboads And Themes",
                       search: "book blog",
-                      htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
-                      <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                        <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                        <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                      <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                        <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                        <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                       </div>
                     </a>`,
-                    reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                    <div class="relative pt-[50%]">
-                      <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                      <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                    <div className="relative pt-[50%]">
+                      <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                      <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                     </div>
                     <a>
                     `,
-                    vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                              <div class="relative pt-[50%]">
-                                <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                              <div className="relative pt-[50%]">
+                                <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                               </div>vue
                             </a>`,
                     isfree: true,
@@ -728,27 +728,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -760,27 +760,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -792,27 +792,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -824,27 +824,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -864,27 +864,27 @@ description: "best vc",
                       name: "Mega Bundle",
                       description: "50+ Premium Dashboads And Themes",
                       search: "book blog",
-                      htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
-                      <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                        <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                        <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                      <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                        <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                        <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                       </div>
                     </a>`,
-                    reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                    <div class="relative pt-[50%]">
-                      <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                      <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                    <div className="relative pt-[50%]">
+                      <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                      <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                     </div>
                     <a>
                     `,
-                    vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                              <div class="relative pt-[50%]">
-                                <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                              <div className="relative pt-[50%]">
+                                <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                               </div>vue
                             </a>`,
                     isfree: true,
@@ -896,27 +896,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -928,27 +928,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -960,27 +960,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -992,27 +992,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -1032,27 +1032,27 @@ description: "best vc",
                       name: "Mega Bundle",
                       description: "50+ Premium Dashboads And Themes",
                       search: "book blog",
-                      htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
-                      <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                        <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                        <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                      <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                        <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                        <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                       </div>
                     </a>`,
-                    reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                    <div class="relative pt-[50%]">
-                      <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                      <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                    <div className="relative pt-[50%]">
+                      <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                      <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                     </div>
                     <a>
                     `,
-                    vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                              <div class="relative pt-[50%]">
-                                <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                    vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                              <div className="relative pt-[50%]">
+                                <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                               </div>vue
                             </a>`,
                     isfree: true,
@@ -1064,27 +1064,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -1096,27 +1096,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -1128,27 +1128,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
@@ -1160,27 +1160,27 @@ description: "best vc",
                         description: "50+ Premium Dashboads And Themes",
                         category: "Cards",
                         search: "book blog",
-                        htmlcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                        <div class="relative pt-[50%]">
-                          <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                          <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                        htmlcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                        <div className="relative pt-[50%]">
+                          <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                          <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                         </div>
-                        <div class="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
-                          <h3 class="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
-                          <p class="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
+                        <div className="bg-white py-3.5 px-4 rounded-b-xl dark:bg-slate-900">
+                          <h3 className="text-sm text-gray-900 font-medium group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-500">Alerts</h3>
+                          <p className="mt-0.5 text-sm text-gray-400 dark:text-gray-500">8 components</p>
                         </div>
                       </a>`,
-                      reactcode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                      <div class="relative pt-[50%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                        <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      reactcode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                      <div className="relative pt-[50%]">
+                        <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                        <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                       </div>
                       <a>
                       `,
-                      vuecode:`<a class="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
-                                <div class="relative pt-[50%]">
-                                  <img class="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
-                                  <img class="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
+                      vuecode:`<a className="group relative bg-gray-50 rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-lg ring-1 ring-transparent ring-opacity-5 dark:bg-[#151c2f] dark:border-gray-800" href="docs/alerts.html">
+                                <div className="relative pt-[50%]">
+                                  <img className="w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:hidden" src="./assets/svg/visuals/components-alerts.svg" alt="Image Description">
+                                  <img className="hidden w-full h-full absolute top-0 left-0 object-cover rounded-t-xl dark:block" src="./assets/svg/visuals-dark/components-alerts.svg" alt="Image Description">
                                 </div>vue
                               </a>`,
                       isfree: true,
