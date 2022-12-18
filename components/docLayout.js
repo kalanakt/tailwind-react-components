@@ -3,8 +3,8 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 import GetImage from "@utils/getImage";
 import Navbar from "@components/navbar";
-import NavBar from "./layout/NavBar";
-import Footer from "./layout/Footer";
+import CNavBar from "./layout/CNavBar";
+import CFooter from "./layout/CFooter";
 
 export default function DocLayout(props) {
   const { children } = props;
@@ -40,10 +40,8 @@ export default function DocLayout(props) {
         }}
       />
 
-      <div className="antialiased text-gray-800 dark:bg-black dark:text-gray-400">
-        <NavBar {...props} />
+      <div className="antialiased text-gray-800 bg-white dark:bg-white">
         <div>{children}</div>
-        <Footer {...props} />
       </div>
     </>
   );

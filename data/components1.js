@@ -38,7 +38,17 @@ export const components1 = [
     category: 'forms',
     subcategory: 'blog-cards',
     name: 'contact cj page 2',
-    code:'<p>H chjhj o</p>',
+    code:
+`import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+const Component = () => {
+  const codeString = '(num) => num + 1';
+  return (
+    <SyntaxHighlighter language="javascript" style={docco}>
+      {codeString}
+    </SyntaxHighlighter>
+  );
+};`,
     component: <HButton />
   },
   {
