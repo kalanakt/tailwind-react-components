@@ -14,6 +14,7 @@ import { useTheme } from "next-themes";
 import { wrap } from 'word-wrap';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { useState } from "react";
+// import { androidstudio } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 function SingleComponent(props){
   const [copied, setCopied] = useState(true);
@@ -31,13 +32,13 @@ function SingleComponent(props){
       );
     });
 
+  function copyCode() {
+      if (!copied)
+        return console.log('copied to cb');
+    }
+
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
-  }
-
-  function Copycode() {
-    setCopied(true)
-    console.log('to do copy to clipboard');
   }
 
   return (
@@ -91,6 +92,7 @@ function SingleComponent(props){
            </div>
            <div className="flex justify-center items-center">
            <button onClick={() => setCopied(false)} className="bg-gray-300 dark:bg-gray-700 inline-flex items-center justify-center gap-2 rounded-md border bg-transparent py-2.5 px-3 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus-visible:ring-gray-700 dark:focus-visible:ring-offset-gray-800">
+           {copyCode()}
               <span className="group inline-flex h-5 w-5 flex-shrink-0 items-center justify-center font-medium text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-gray-500">
               {copied ?
               <svg className="h-3 w-3 transition group-hover:rotate-6" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
