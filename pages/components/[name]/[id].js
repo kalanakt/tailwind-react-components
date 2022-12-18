@@ -13,11 +13,10 @@ import { ThemeProvider } from "next-themes";
 import { useTheme } from "next-themes";
 import { wrap } from 'word-wrap';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import {androidstudio} from 'react-syntax-highlighter/dist/esm/styles/prism'
 import { useState } from "react";
 
 function SingleComponent(props){
-  const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState(true);
   const { theme, setTheme } = useTheme();
   const activeTheme = theme === 'dark' ? 'light' : 'dark';
   const selectComponentsByCategory = components1.filter((item) => {
@@ -121,7 +120,7 @@ function SingleComponent(props){
                 'bg-transparent max-h-screen',
                 'focus:outline-none'
               )}>
-               <SyntaxHighlighter className="p-1 rounded-md h-52 flex overflow-y-scroll hide-scroll-bar bg-gray-100 dark:bg-gray-800" showLineNumbers={true} wrapLines={true} wrapLongLines={true} language="javascript" style={androidstudio}>
+               <SyntaxHighlighter className="p-1 rounded-md h-52 flex overflow-y-scroll hide-scroll-bar bg-gray-100 dark:bg-gray-800" showLineNumbers={true} wrapLines={true} wrapLongLines={true} language="javascript">
                  {item.code}
                </SyntaxHighlighter>
               </Tab.Panel>
@@ -129,7 +128,7 @@ function SingleComponent(props){
                     'bg-transparent max-h-screen',
                     'focus:outline-none'
                   )}>
-                  <SyntaxHighlighter className="p-1 rounded-md h-52 flex overflow-y-scroll hide-scroll-bar bg-gray-100 dark:bg-gray-800" showLineNumbers={true} wrapLines={true} wrapLongLines={true} language="javascript" style={androidstudio}>
+                  <SyntaxHighlighter className="p-1 rounded-md h-52 flex overflow-y-scroll hide-scroll-bar bg-gray-100 dark:bg-gray-800" showLineNumbers={true} wrapLines={true} wrapLongLines={true} language="javascript" >
                     {item.code}
                   </SyntaxHighlighter>
                   </Tab.Panel>
