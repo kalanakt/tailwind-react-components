@@ -5,6 +5,8 @@ import GetImage from "@utils/getImage";
 import Navbar from "@components/navbar";
 import CNavBar from "./layout/CNavBar";
 import CFooter from "./layout/CFooter";
+import DocSidebar from "./layout/DocSidebar";
+import DocRidebar from "./layout/DocRidebar";
 
 export default function DocLayout(props) {
   const { children } = props;
@@ -39,9 +41,14 @@ export default function DocLayout(props) {
           cardType: "summary_large_image"
         }}
       />
+      <div className="relative min-h-screen max-h-screen flex flex-col">
+        <div className="flex-1 flex flex-row overflow-y-hidden">
+          <main className="hide-scroll-bar flex-1 overflow-y-auto border-r-2 border-gray-200">{children}</main>
 
-      <div className="antialiased text-gray-800 bg-white dark:bg-white">
-        <div>{children}</div>
+          <nav className="order-first w-fit overflow-y-auto"><DocSidebar /></nav>
+
+          <aside className="hide-scroll-bar overflow-y-auto"><DocRidebar/></aside>
+        </div>
       </div>
     </>
   );

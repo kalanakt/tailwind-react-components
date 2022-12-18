@@ -15,9 +15,9 @@ import { wrap } from 'word-wrap';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { useState } from "react";
 // import { androidstudio } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 function SingleComponent(props){
-  const [copied, setCopied] = useState(true);
   const { theme, setTheme } = useTheme();
   const activeTheme = theme === 'dark' ? 'light' : 'dark';
   const selectComponentsByCategory = components1.filter((item) => {
@@ -32,10 +32,6 @@ function SingleComponent(props){
       );
     });
 
-  function copyCode() {
-      if (!copied)
-        return console.log('copied to cb');
-    }
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -43,11 +39,11 @@ function SingleComponent(props){
 
   return (
     <DocLayout>
-    <section className="mb-4 text-slate-600 mx-auto">
+    <section className="text-slate-600 mx-auto pt-8">
 
     <div className="flex flex-col justify-center items-center">
     {filteredComponents.map( (item, index ) =>
-      <div key={index} className="w-full md:w-4/6 px-2 py-16 sm:px-0 min-h-screen">
+      <div key={index} className="w-full pt-16 md:w-4/6 px-2 sm:px-0">
       <Tab.Group>
         <Tab.List className="flex flex-wrap md:flex-row gap-1 rounded-xl rounded-md transition">
           <Tab className={({ selected }) =>
@@ -91,21 +87,16 @@ function SingleComponent(props){
             </button>
            </div>
            <div className="flex justify-center items-center">
-           <button onClick={() => setCopied(false)} className="bg-gray-300 dark:bg-gray-700 inline-flex items-center justify-center gap-2 rounded-md border bg-transparent py-2.5 px-3 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus-visible:ring-gray-700 dark:focus-visible:ring-offset-gray-800">
-           {copyCode()}
+           <CopyToClipboard text={item.code}>
+           <button className="bg-gray-300 dark:bg-gray-700 inline-flex items-center justify-center gap-2 rounded-md border bg-transparent py-2.5 px-3 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus-visible:ring-gray-700 dark:focus-visible:ring-offset-gray-800">
               <span className="group inline-flex h-5 w-5 flex-shrink-0 items-center justify-center font-medium text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-gray-500">
-              {copied ?
               <svg className="h-3 w-3 transition group-hover:rotate-6" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
                 <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
               </svg>
-              :
-              <svg className="h-5 w-5 rotate-6 text-blue-600" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-              </svg>
-              }
               </span>
             </button>
+            </CopyToClipboard>
            </div>
 
         </Tab.List>
