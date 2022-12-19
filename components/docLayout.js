@@ -48,7 +48,7 @@ export default function DocLayout(props) {
 
           <nav className="hidden md:block z-20 order-first w-fit border-r-2 hide-scroll-bar bg-white  max-h-screen text-gray-700 overflow-y-auto"><DocSidebar /></nav>
 
-          <aside className="hidden md:block hide-scroll-bar bg-white overflow-y-auto"><DocRidebar/></aside>
+          <aside className="hidden md:block hide-scroll-bar bg-white overflow-y-auto max-h-screen"><DocRidebar/></aside>
         </div>
       </div>
     </>

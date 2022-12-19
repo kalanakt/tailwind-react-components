@@ -44,13 +44,13 @@ function SingleComponent(props){
       <div>
         <div className="flex flex-col gap-2">
          <p className="text-sm leading-6 font-semibold text-sky-500 capitalize">{item.subcategory}</p>
-         <h1 className="inline-block text-2xl text-slate-800 font-extrabold text-slate-900 tracking-tight capitalize">{item.name}</h1>
+         <h1 className="inline-block text-2xl font-extrabold text-slate-900 tracking-tight capitalize">{item.name}</h1>
          <p className="text-slate-700">{item.description}</p>
         </div>
       </div>
       <div className="relative max-h-screen">
       <Tab.Group>
-      <Tab.List className="flex flex-wrap md:flex-row gap-1 rounded-xl rounded-md transition">
+      <Tab.List className="flex flex-wrap md:flex-row gap-1 rounded-md transition">
           <Tab className={({ selected }) =>
                 classNames(
                   'w-fit px-4 rounded-md shadow py-2 text-sm font-medium leading-5 text-gray-700',
@@ -111,14 +111,14 @@ function SingleComponent(props){
                 'focus:outline-none'
               )}>
               <ThemeProvider attribute="class">
-              <div className="flex h-52 overflow-y-scroll flex justify-center items-center hide-scroll-bar">{item.component}</div>
+              <div className="h-52 overflow-y-scroll flex justify-center items-center hide-scroll-bar">{item.component}</div>
               </ThemeProvider>
               </Tab.Panel>
               <Tab.Panel className={classNames(
                 'bg-transparent max-h-screen',
                 'focus:outline-none'
               )}>
-              <pre className="h-56 hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased font-light whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
+              <pre className="h-56 hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
              {item.code}
              </pre>
               </Tab.Panel>
@@ -126,7 +126,7 @@ function SingleComponent(props){
                     'bg-transparent max-h-screen',
                     'focus:outline-none'
                   )}>
-                  <pre className="h-56 hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased font-light whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
+                  <pre className="h-56 hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
                  {item.code}
                  </pre>
                   </Tab.Panel>
@@ -160,13 +160,13 @@ function SingleComponent(props){
       </div>
       <div className="flex flex-col">
       <h2 className="group flex whitespace-pre-wrap -ml-4 pl-4 mb-2 text-sm leading-6 text-sky-500 font-semibold tracking-normal dark:text-sky-400" id="basic-usage">Basic usage</h2>
-      <h3 className="group flex whitespace-pre-wrap -ml-4 pl-4 inline-block text-lg text-slate-800 font-extrabold text-slate-900 tracking-tight capitalize">Truncate</h3>
+      <h3 className="group whitespace-pre-wrap -ml-4 pl-4 inline-block text-lg font-extrabold text-slate-900 tracking-tight capitalize">Truncate</h3>
       <p>Use utilities like <code>.rounded-sm</code>, <code>.rounded</code>, or <code>.rounded-lg</code> to apply different border radius sizes to an element.</p>
-      <div className="not-prose dark:bg-gray-900 mt-4 mb-4 relative bg-slate-50 border border-black/5 overflow-hidden relative rounded-xl overflow-auto flex items-center justify-around gap-4 p-8">
+      <div className="not-prose dark:bg-gray-900 mt-4 mb-4 bg-slate-50 border border-black/5 relative rounded-xl overflow-auto flex items-center justify-around gap-4 p-8">
         {item.component}
       </div>
       <div className="relative">
-     <pre className="bg-slate-50 dark:bg-gray-900 h-56 relative border-black/5 rounded-xl hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased font-light whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
+     <pre className="bg-slate-50 dark:bg-gray-900 h-56 relative border-black/5 rounded-xl hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
      {item.code}
      </pre>
      <div className="flex absolute top-1 right-1 justify-center items-center">

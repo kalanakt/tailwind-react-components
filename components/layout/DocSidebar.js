@@ -7,8 +7,8 @@ function DocSidebar(props) {
   return (
     <div className="h-full space-y-2 px-2 text-dray-800">
     	<div className="sticky top-0 p-3 bg-white flex flex-row gap-4 border-b-2">
-    		<Image loader={myLoader} width={50} height={50} src="https://source.unsplash.com/100x100/?portrait" alt="" className="w-12 h-12 rounded-full" />
-    		<div>
+			<Image loader={myLoader} width={50} height={50} src="/images/brands/amazon_color.png" alt="" className="w-12 h-12 rounded-full" />
+			<div>
     			<h2 className="text-lg font-semibold text-dray-800">Leroy Jenkins</h2>
     			<span className="flex items-center space-x-1">
     				<a rel="noopener noreferrer" href="#" className="text-xs text-dray-800 hover:underline">View profile</a>
