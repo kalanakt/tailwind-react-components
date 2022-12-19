@@ -6,6 +6,7 @@ export const components1 = [
     id: 1,
     category: 'forms',
     subcategory: 'blog-cards',
+    description: "Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:rounded-lg to only apply the rounded-lg utility on hover.",
     name: 'contact page 2',
     code: `<div
 			className="h-fit text-base font-semibold leading-7 text-sky-500"
@@ -29,6 +30,7 @@ export const components1 = [
     id: 2,
     category: 'forvh chcjv m',
     subcategory: 'contact',
+    description: "Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:rounded-lg to only apply the rounded-lg utility on hover.",
     name: 'contact page 2',
     code: `<p className="bg-red-400 text-2xl">Ho</p>`,
     component: <HButton />
@@ -37,6 +39,7 @@ export const components1 = [
     id: 3,
     category: 'forms',
     subcategory: 'blog-cards',
+    description: "Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:rounded-lg to only apply the rounded-lg utility on hover.",
     name: 'contact cj page 2',
     code:
 `import SyntaxHighlighter from 'react-syntax-highlighter';
@@ -55,6 +58,7 @@ const Component = () => {
     id: 4,
     category: 'forvh chcjv m',
     subcategory: 'contact',
+    description: "Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:rounded-lg to only apply the rounded-lg utility on hover.",
     name: 'contact page 2',
     code: '<p>H chjhj o</p>',
     component: <HButton />

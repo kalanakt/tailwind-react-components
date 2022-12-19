@@ -41,13 +41,13 @@ export default function DocLayout(props) {
           cardType: "summary_large_image"
         }}
       />
-      <div className="relative min-h-screen max-h-screen flex flex-col">
-        <div className="flex-1 flex flex-row overflow-y-hidden">
-          <main className="hide-scroll-bar flex-1 overflow-y-auto border-r-2 border-gray-200">{children}</main>
+      <div className="h-screen flex flex-col">
+        <div className="flex flex-row">
+          <main className="hide-scroll-bar  bg-white overflow-y-auto max-h-screen flex-1 min-h-screen border-r-2 border-gray-200">{children}</main>
 
-          <nav className="order-first w-fit overflow-y-auto"><DocSidebar /></nav>
+          <nav className="order-first w-fit border-r-2 hide-scroll-bar bg-white  max-h-screen text-gray-700 overflow-y-auto"><DocSidebar /></nav>
 
-          <aside className="hide-scroll-bar overflow-y-auto"><DocRidebar/></aside>
+          <aside className="hide-scroll-bar bg-white overflow-y-auto"><DocRidebar/></aside>
         </div>
       </div>
     </>

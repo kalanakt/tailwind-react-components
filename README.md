@@ -3,7 +3,7 @@
 Stablo is a JAMStack Blog template built with Next.js, Tailwind CSS & Sanity CMS by [Web3Templates](https://web3templates.com/). It comes with free & pro version. 
 
 <a href="https://www.sanity.io/create?template=web3templates%2Fstablo">
-<img width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
+<Image width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
 </a> 
 
 ## Live Demo
@@ -44,13 +44,13 @@ Stablo is a JAMStack Blog template built with Next.js, Tailwind CSS & Sanity CMS
 | &nbsp;| [Deploy for free](https://www.sanity.io/create?template=web3templates%2Fstablo) | [Purchase Pro](https://web3templates.com/templates/stablo-minimal-blog-website-template)|
 
 <a href="https://web3templates.com/templates/stablo-minimal-blog-website-template">
-<img width="160" alt="Upgrade to Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
+<Image width="160" alt="Upgrade to Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
 </a> 
 
 # Installation
 
 <a href="https://www.sanity.io/create?template=web3templates%2Fstablo">
-<img width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
+<Image width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
 </a> 
 
 ###### Click the above button for one-click clone & deploy for this template. Read [quick start](#quick-start) guide below. 
@@ -80,7 +80,7 @@ To use this template and configure sanity and deploying to vercel, we recommend 
  
 
 <a href="https://www.sanity.io/create?template=web3templates%2Fstablo">
-<img width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
+<Image width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
 </a>
 
 To setup one click deployment, click the above link below and follow the steps. 
@@ -88,7 +88,7 @@ To setup one click deployment, click the above link below and follow the steps.
 ##  Video Demo & Tutorial 
 
 <a href="https://www.youtube.com/watch?v=UahnAg6vsa0">
-<img width="1224" alt="CleanShot 2022-10-29 at 14 21 09@2x" src="https://user-images.githubusercontent.com/1884712/198823233-875cfbcc-c528-40d4-b8bf-144a658dd57e.png">
+<Image width="1224" alt="CleanShot 2022-10-29 at 14 21 09@2x" src="https://user-images.githubusercontent.com/1884712/198823233-875cfbcc-c528-40d4-b8bf-144a658dd57e.png">
 </a>
 
 ## Local Development
@@ -155,4 +155,4 @@ cd studio && sanity start
 
 ## Sponsor
 
-<a href="https://vercel.com/?utm_source=web3templates&amp;utm_campaign=oss" rel="nofollow"><img src="https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667" alt="image" style="max-width: 70%;"></a>
+<a href="https://vercel.com/?utm_source=web3templates&amp;utm_campaign=oss" rel="nofollow"><Image src="https://camo.githubusercontent.com/37b009b52b3a9af7886f52e75cd76d1b32fef331ab1dc2108089c0ced0b7635f/68747470733a2f2f7777772e6461746f636d732d6173736574732e636f6d2f33313034392f313631383938333239372d706f77657265642d62792d76657263656c2e737667" alt="image" style="max-width: 70%;"></a>
