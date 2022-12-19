@@ -137,10 +137,10 @@ function SingleComponent(props){
         <table className="w-full text-left border-collapse">
           <thead>
             <tr>
-              <th className="sticky z-10 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0">
+              <th className="sticky z-5 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0">
               <div className="py-2 pr-2 border-b border-slate-200">Props</div>
               </th>
-              <th className="sticky z-10 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0">
+              <th className="sticky z-5 top-0 text-sm leading-6 font-semibold text-slate-700 bg-white p-0">
               <div className="py-2 pl-2 border-b border-slate-200">Properties</div>
               </th>
             </tr>

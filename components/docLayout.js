@@ -43,11 +43,12 @@ export default function DocLayout(props) {
       />
       <div className="h-screen flex flex-col">
         <div className="flex flex-row">
+          <CNavBar />
           <main className="hide-scroll-bar  bg-white overflow-y-auto max-h-screen flex-1 min-h-screen border-r-2 border-gray-200">{children}</main>
 
-          <nav className="order-first w-fit border-r-2 hide-scroll-bar bg-white  max-h-screen text-gray-700 overflow-y-auto"><DocSidebar /></nav>
+          <nav className="hidden md:block z-20 order-first w-fit border-r-2 hide-scroll-bar bg-white  max-h-screen text-gray-700 overflow-y-auto"><DocSidebar /></nav>
 
-          <aside className="hide-scroll-bar bg-white overflow-y-auto"><DocRidebar/></aside>
+          <aside className="hidden md:block hide-scroll-bar bg-white overflow-y-auto"><DocRidebar/></aside>
         </div>
       </div>
     </>
