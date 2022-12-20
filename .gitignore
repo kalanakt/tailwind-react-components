@@ -11,13 +11,13 @@
 # next.js
 /.next/
 /out/
+/public/feeds/
 
 # production
 /build
 
 # misc
 .DS_Store
-*.pem
 
 # debug
 npm-debug.log*
@@ -25,19 +25,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
 .env.local
-.env.development
 .env.development.local
 .env.test.local
-.env.production
 .env.production.local
-
-# vercel
-.vercel
-
-# netlify
-.netlify
-
-# studio output
-public/studio
