@@ -18,7 +18,7 @@ function PropTable({table}){
           </thead>
           <tbody className="align-baseline">
           {table.map((item, index) => (
-            <tr className="border-b border-slate-200">
+            <tr className="border-b border-slate-200" key={index}>
               <td translate="no" className="py-2 pr-2 font-mono font-medium text-xs leading-6 text-sky-500 whitespace-nowrap">{item.prop}</td>
               <td translate="no" className="py-2 pl-2 font-mono text-xs leading-6 text-indigo-600 whitespace-pre">{item.properties}</td>
             </tr>

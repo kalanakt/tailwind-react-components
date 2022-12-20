@@ -46,7 +46,7 @@ function SingleComponent(props){
          <p className="text-slate-700">{item.description}</p>
         </div>
       </div>
-      
+
       <CodePreview code={item.code} codesandbox="/" github="/" lightcomponent={item.component} darkcomponent={item.component} />
       <PropTable table={item.table}/>
 
@@ -58,9 +58,7 @@ function SingleComponent(props){
         {item.component}
       </div>
       <div className="relative">
-     <pre className="bg-slate-50 dark:bg-gray-900 h-56 relative border-black/5 rounded-xl hide-scroll-bar p-3 overflow-y-scroll subpixel-antialiased whitespace-pre-wrap text-xs py-2 pr-2 font-mono font-medium leading-6 text-sky-500 dark:text-sky-400">
-     {item.code}
-     </pre>
+      <pre>{item.code}</pre>
      <div className="flex absolute top-1 right-1 justify-center items-center">
      <CopyToClipboard text={item.code}>
       <div className="p-2 rounded-md border border-gray-400">

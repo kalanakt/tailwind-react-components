@@ -1,19 +1,8 @@
-// import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { SunIcon } from "@heroicons/react/outline";
 
 const ThemeSwitch = () => {
-  //   const [mounted, setMounted] = useState(false);
-  //   const { resolvedTheme, setTheme } = useTheme();
   const { theme, setTheme } = useTheme();
-  // useEffect only runs on the client, so now we can safely show the UI
-  //   useEffect(() => {
-  //     setMounted(true);
-  //   }, []);
-
-  //   if (!mounted) {
-  //     return null;
-  //   }
 
   return (
     <div className="shadow-md inline-flex py-1 px-3 outline-none focus:outline-none rounded-md items-center border border-gray-200 dark:border-gray-800">

@@ -64,8 +64,8 @@ export default function CodePreview({ code="", lightcomponent="",darkcomponent="
                     </Tab>
                 </Tab.List>
                 <Tab.Panels>
-                    <Tab.Panel className="bg-slate-800 border-b-md shadow-md pt-2 dark:bg-slate-50 flex hide-scroll-bar justify-center items-center h-60 overflow-y-scroll">
-                        <pre className="text-xs font-mono font-medium leading-6 text-white dark:text-white">{code}</pre>
+                    <Tab.Panel>
+                    <pre>{code}</pre>
                     </Tab.Panel>
                     <Tab.Panel className="bg-slate-800 border-b-md shadow-md pt-2 dark:bg-slate-50 flex hide-scroll-bar justify-center items-center h-60 overflow-y-scroll">
                         <pre className="text-xs font-mono font-medium leading-6 text-white dark:text-white">{code}</pre>

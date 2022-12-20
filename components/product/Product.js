@@ -17,7 +17,7 @@ function Product() {
         } else {
           setSearchShow(true);
         }
-      };
+      }
 
     const selectProjectsByCategory = Data.filter((item) => {
         let category =

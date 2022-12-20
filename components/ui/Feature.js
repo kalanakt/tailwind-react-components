@@ -27,7 +27,7 @@ function Feature(){
 
       <div className="rounded-r-md relative hidden h-full w-2/5 overflow-hidden lg:block">
         <div className="absolute">
-          <Image width={800} height={1000} loader={myLoader} src="/images/ui-project-1.jpg" className="border-r object-cover object-left-top" alt="" />
+          {/*<Image width={800} height={1000} loader={myLoader} src="/images/ui-project-1.jpg" className="border-r object-cover object-left-top" alt="" /> */}
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ function Feature(){
       </div>
       <div className="relative hidden h-full w-2/5 overflow-hidden lg:block rounded-r-md">
         <div className="absolute">
-          <Image width={800} height={1000} loader={myLoader} src="/images/ui-project-1.jpg" className=" h-full w-full object-cover object-left-top" alt="hbf"/>
+          {/*<Image width={800} height={1000} loader={myLoader} src="/images/ui-project-1.jpg" className=" h-full w-full object-cover object-left-top" alt="hbf"/> */}
         </div>
       </div>
     </div>

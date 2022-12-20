@@ -57,7 +57,6 @@ export default function Card(props) {
               </div>
 
               <div className="sm:inline-flex sm:shrink-0 sm:items-center">
-                <arrowDownIcon className="w-5 h-5" aria-hidden={true}/>
 
                 <div className="mt-1.5 sm:ml-3 sm:mt-0">
                   <p className="text-gray-500">Sells</p>
