@@ -28,11 +28,11 @@ import { lines as vueNavItemSample } from '../../samples/vue/nav-item.html?highl
 import { lines as vueListSample } from '../../samples/vue/list.html?highlight'
 import { lines as vueListItemSample } from '../../samples/vue/list-item.html?highlight'
 
-import { lines as angularMoviesSample } from '../../samples/angular/movies.js?highlight'
-import { lines as angularNavSample } from '../../samples/angular/nav.js?highlight'
-import { lines as angularNavItemSample } from '../../samples/angular/nav-item.js?highlight'
-import { lines as angularListSample } from '../../samples/angular/list.js?highlight'
-import { lines as angularListItemSample } from '../../samples/angular/list-item.js?highlight'
+// import { lines as angularMoviesSample } from '../../samples/angular/movies.js?highlight'
+// import { lines as angularNavSample } from '../../samples/angular/nav.js?highlight'
+// import { lines as angularNavItemSample } from '../../samples/angular/nav-item.js?highlight'
+// import { lines as angularListSample } from '../../samples/angular/list.js?highlight'
+// import { lines as angularListItemSample } from '../../samples/angular/list-item.js?highlight'
 
 import { lines as bladeMoviesSample } from '../../samples/blade/movies.html?highlight'
 import { lines as bladeNavSample } from '../../samples/blade/nav.html?highlight'
@@ -102,13 +102,13 @@ const tabs = {
     'List.vue': vueListSample,
     'ListItem.vue': vueListItemSample,
   },
-  Angular: {
-    'movies.component.ts': highlightDecorators(angularMoviesSample),
-    'nav.component.ts': highlightDecorators(angularNavSample),
-    'nav-item.component.ts': highlightDecorators(angularNavItemSample),
-    'list.component.ts': highlightDecorators(angularListSample),
-    'list-item.component.ts': highlightDecorators(angularListItemSample),
-  },
+  // Angular: {
+  //   'movies.component.ts': highlightDecorators(angularMoviesSample),
+  //   'nav.component.ts': highlightDecorators(angularNavSample),
+  //   'nav-item.component.ts': highlightDecorators(angularNavItemSample),
+  //   'list.component.ts': highlightDecorators(angularListSample),
+  //   'list-item.component.ts': highlightDecorators(angularListItemSample),
+  // },
   Blade: {
     'movies.blade.php': bladeMoviesSample,
     'nav.blade.php': bladeNavSample,
