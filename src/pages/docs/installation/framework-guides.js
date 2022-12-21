@@ -1,24 +1,24 @@
-import AdonisLogo from '@/img/guides/adonis'
-import AngularLogo from '@/img/guides/angular'
-import AngularLogoWhite from '@/img/guides/angular-white'
-import CraLogo from '@/img/guides/cra'
-import GatsbyLogo from '@/img/guides/gatsby'
-import LaravelLogo from '@/img/guides/laravel'
-import MeteorLogo from '@/img/guides/meteor'
-import NextJsLogo from '@/img/guides/nextjs'
-import NextJsLogoWhite from '@/img/guides/nextjs-white'
-import NuxtJsLogo from '@/img/guides/nuxtjs'
-import ParcelLogo from '@/img/guides/parcel'
-import PhoenixLogo from '@/img/guides/phoenix'
-import RailsLogo from '@/img/guides/rails'
-import RailsLogoWhite from '@/img/guides/rails-white'
-import RemixLogo from '@/img/guides/remix'
-import RemixLogoWhite from '@/img/guides/remix-white'
-import SolidJSLogo from '@/img/guides/solidjs'
-import SvelteLogo from '@/img/guides/svelte'
-import SymfonyLogo from '@/img/guides/symfony'
-import SymfonyLogoWhite from '@/img/guides/symfony-white'
-import ViteLogo from '@/img/guides/vite'
+// import AdonisLogo from '@/img/guides/adonis'
+// import AngularLogo from '@/img/guides/angular'
+// import AngularLogoWhite from '@/img/guides/angular-white'
+// import CraLogo from '@/img/guides/cra'
+// import GatsbyLogo from '@/img/guides/gatsby'
+// import LaravelLogo from '@/img/guides/laravel'
+// import MeteorLogo from '@/img/guides/meteor'
+// import NextJsLogo from '@/img/guides/nextjs'
+// import NextJsLogoWhite from '@/img/guides/nextjs-white'
+// import NuxtJsLogo from '@/img/guides/nuxtjs'
+// import ParcelLogo from '@/img/guides/parcel'
+// import PhoenixLogo from '@/img/guides/phoenix'
+// import RailsLogo from '@/img/guides/rails'
+// import RailsLogoWhite from '@/img/guides/rails-white'
+// import RemixLogo from '@/img/guides/remix'
+// import RemixLogoWhite from '@/img/guides/remix-white'
+// import SolidJSLogo from '@/img/guides/solidjs'
+// import SvelteLogo from '@/img/guides/svelte'
+// import SymfonyLogo from '@/img/guides/symfony'
+// import SymfonyLogoWhite from '@/img/guides/symfony-white'
+// import ViteLogo from '@/img/guides/vite'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
 import Link from 'next/link'
@@ -33,7 +33,7 @@ export default function FrameworkGuides() {
           in a number of popular environments. commented
         </p>
       </div>
-      <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 xl:grid-cols-3">
+      {/* <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 xl:grid-cols-3">
         {[
           {
             name: 'Next.js',
@@ -175,7 +175,7 @@ export default function FrameworkGuides() {
             <div className="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100" />
           </li>
         ))}
-      </ul>
+      </ul> */}
       <div className="mt-16 prose prose-slate max-w-3xl dark:prose-dark">
         <p>
           Don't see your framework of choice? Try using{' '}

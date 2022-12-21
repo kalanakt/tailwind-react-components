@@ -56,7 +56,7 @@ shuffleSeed.shuffle = function (arr, seed) {
   var resp = []
   var keys = []
 
-  for (var i = 0; i < size; i++) keys.push(i)
+  for (var j = 0; j < size; j++) keys.push(j)
   for (var i = 0; i < size; i++) {
     var r = seedRand(rng, 0, keys.length - 1)
     var g = keys[r]
