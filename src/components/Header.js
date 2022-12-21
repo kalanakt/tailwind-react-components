@@ -144,10 +144,10 @@ export function NavItems() {
       </li>
       <li>
         <Link href="/showcase">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">Showcase</a>
+          <a className="hover:text-sky-500 dark:hover:text-sky-400">Templates</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/templates">
           <a className="hover:text-sky-500 dark:hover:text-sky-400">
             Templates
@@ -156,7 +156,7 @@ export function NavItems() {
             </span>
           </a>
         </Link>
-      </li>
+      </li> */}
     </>
   )
 }

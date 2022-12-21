@@ -21,6 +21,7 @@ import styles from './index.module.css'
 import clsx from 'clsx'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import socialCardLarge from '@/img/social-card-large.jpg'
+import Feature from '@/components/home/Feature'
 
 function Header() {
   return (
@@ -28,7 +29,7 @@ function Header() {
       <div className="px-4 sm:px-6 md:px-8">
         <div
           className={clsx(
-            'absolute inset-0 bottom-10 bg-bottom bg-no-repeat bg-slate-50 dark:bg-[#0B1120]',
+            'absolute inset-0 bottom-0 bg-bottom bg-no-repeat bg-slate-50 dark:bg-[#0B1120]',
             styles.beams
           )}
         >
@@ -69,10 +70,10 @@ function Header() {
               <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                 <ThemeToggle />
                 <a
-                  href="https://github.com/tailwindlabs/tailwindcss"
+                  href="https://github.com/vwjs"
                   className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                 >
-                  <span className="sr-only">Tailwind CSS on GitHub</span>
+                  <span className="sr-only">Vwjs on GitHub</span>
                   <svg
                     viewBox="0 0 16 16"
                     className="w-5 h-5"
@@ -87,19 +88,25 @@ function Header() {
           </div>
         </div>
         <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
-          <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
-            Rapidly build modern websites without ever leaving your HTML.
+          <h1 className="sm:mx-auto uppercase py-3 w-full font-black text-blue-900 text-4xl text-center sm:text-4xl md:text-5xl lg:w-auto xl:text-6xl dark:text-white">
+            Build your next idea{' '}
+            <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
+              even faster.
+            </span>
           </h1>
+          {/* <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
+            Rapidly build modern websites without ever leaving your HTML.
+          </h1> */}
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
-            A utility-first CSS framework packed with classes like{' '}
-            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">flex</code>,{' '}
-            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">pt-4</code>,{' '}
+            A Fast, User Friendly, Classy Tailwind CSS Component Library packed with classes like{' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">card-4</code>,{' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">p-4</code>,{' '}
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
-              text-center
+              text-type-4
             </code>{' '}
             and{' '}
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400">rotate-90</code>{' '}
-            that can be composed to build any design, directly in your markup.
+            that can be used within tailwind css classes.
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
             <NextLink href="/docs/installation">
@@ -163,9 +170,9 @@ export default function Home() {
         />
         <title>Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.</title>
       </Head>
-      <div className="mb-20 space-y-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
+      <div className="mb-8 space-y-10 overflow-hidden sm:mb-4 sm:space-y-32 md:mb-8 md:space-y-20">
         <Header />
-        <section className="text-center px-8">
+        {/* <section className="text-center px-8">
           <h2 className="text-slate-900 text-4xl tracking-tight font-extrabold sm:text-5xl dark:text-white">
             “Best practices” don’t actually work.
           </h2>
@@ -199,9 +206,10 @@ export default function Home() {
               </div>
             </figcaption>
           </figure>
-        </section>
+        </section> */}
       </div>
-      <Testimonials />
+
+      {/* <Testimonials /> */}
       <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
         <ConstraintBased />
         <BuildAnything />

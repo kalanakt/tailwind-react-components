@@ -6,7 +6,7 @@ import Image from 'next/future/image'
 import { Footer } from '@/components/Footer'
 import clsx from 'clsx'
 
-function Components({ components, priority = false }) {
+function Component({ components, priority = false }) {
   return (
     <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8" key={components.id}>
       <div id="scrollspy" className="divide-y divide-gray-200 dark:divide-gray-800">
@@ -19,12 +19,7 @@ function Components({ components, priority = false }) {
 
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 md:grid-cols-3 lg:gap-8 xl:grid-cols-4">
             {components.subcategory.map((component, index) => (
-              <Link
-                href="/components/[name]/[id]"
-                as={'/components/' + components.name + '/' + component.name}
-                passHref={true}
-                key={index}
-              >
+              <Link href={`/components/${component.name}`} key={index}>
                 <div className="group relative rounded-xl border border-gray-200 bg-gray-50 ring-1 ring-transparent ring-opacity-5 transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-800 dark:bg-[#151c2f]">
                   <div className="relative pt-[50%]">
                     <Image
@@ -73,7 +68,7 @@ function Components({ components, priority = false }) {
   )
 }
 
-export default function Showcase() {
+export default function Components() {
   return (
     <>
       <main className="mt-16 sm:mt-20 relative">
@@ -95,7 +90,7 @@ export default function Showcase() {
         </div>
         <div>
           {components.map((components, siteIndex) => (
-            <Components key={components.name} components={components} priority={siteIndex < 6} />
+            <Component key={components.name} components={components} priority={siteIndex < 6} />
           ))}
         </div>
       </main>
@@ -104,11 +99,15 @@ export default function Showcase() {
   )
 }
 
-Showcase.layoutProps = {
+Components.layoutProps = {
   meta: {
-    title: 'Example Showcase',
+    title: 'Example Components',
     description:
       'Beautiful websites built with Tailwind CSS, including marketing sites, SaaS applications, ecommerce stores, and more.',
     ogImage: require('@/img/showcase/og.jpg'),
   },
+}
+
+export async function getStaticProps() {
+  return { props: {} }
 }

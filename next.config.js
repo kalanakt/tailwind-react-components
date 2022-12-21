@@ -337,6 +337,7 @@ module.exports = withBundleAnalyzer({
       include: [path.join(__dirname, 'src/pages/showcase/')],
       use: mainMdxLoader(null),
     })
+
     return config
   },
 })
