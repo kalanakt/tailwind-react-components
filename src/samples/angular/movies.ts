@@ -16,4 +16,15 @@ import { Component, Input } from '@angular/core'
   `,
 })
 
-export class Movies {}
+export class MoviesComponent {
+  @Input() movies!: {
+    image: string
+    title: string
+    starRating: string
+    rating: string
+    year: string
+    genre: string
+    runtime: string
+    cast: string
+  }[]
+}
