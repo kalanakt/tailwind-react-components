@@ -11,4 +11,4 @@ import { Component } from '@angular/core'
   `,
 })
 
-export class NavComponent {}
+export default class NavComponent {}

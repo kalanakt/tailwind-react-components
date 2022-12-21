@@ -15,7 +15,4 @@ import { Component, Input } from '@angular/core'
   `,
 })
 
-export class NavItemComponent {
-  @Input() href!: string
-  @Input() isActive: boolean = false
-}
+export default class ListComponent {}
