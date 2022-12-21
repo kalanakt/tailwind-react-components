@@ -21,6 +21,17 @@ export const documentationNav = {
     pages['browser-support'],
     pages['upgrade-guide'],
   ],
+  INPUTS: [
+    pages['button'],
+    // TODO: Maybe write this page
+    // pages['writing-your-html'],
+    pages['hover-focus-and-other-states'],
+    pages['responsive-design'],
+    pages['dark-mode'],
+    pages['reusing-styles'],
+    pages['adding-custom-styles'],
+    pages['functions-and-directives'],
+  ],
   'Core Concepts': [
     pages['utility-first'],
     // TODO: Maybe write this page
