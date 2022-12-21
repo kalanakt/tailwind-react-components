@@ -15,4 +15,5 @@ import { Component, Input } from '@angular/core'
   `,
 })
 
-export default class ListComponent {}
+export class NavItem {}
+

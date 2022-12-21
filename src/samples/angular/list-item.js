@@ -53,4 +53,4 @@ import { Component } from '@angular/core'
   `,
 })
 
-export default class ListComponent {}
+export class ListItem {}
