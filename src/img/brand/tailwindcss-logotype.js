@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export default function TailwindcssLogotype() {
+export default function tailwindcssLogoType() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 262 33">
       <g fill-rule="evenodd" clip-path="url(#prefix__clip0)" clip-rule="evenodd">

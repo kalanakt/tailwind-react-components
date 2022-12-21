@@ -2,27 +2,27 @@ import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
 import Link from 'next/link'
 
-// import { ReactComponent as AdonisLogo } from '@/img/guides/adonis.svg'
-// import { ReactComponent as AngularLogo } from '@/img/guides/angular.svg'
-// import { ReactComponent as AngularLogoWhite } from '@/img/guides/angular-white.svg'
-// import { ReactComponent as CraLogo } from '@/img/guides/cra.svg'
-// import { ReactComponent as GatsbyLogo } from '@/img/guides/gatsby.svg'
-// import { ReactComponent as LaravelLogo } from '@/img/guides/laravel.svg'
-// import { ReactComponent as MeteorLogo } from '@/img/guides/meteor.svg'
-// import { ReactComponent as NextJsLogo } from '@/img/guides/nextjs.svg'
-// import { ReactComponent as NextJsLogoWhite } from '@/img/guides/nextjs-white.svg'
-// import { ReactComponent as NuxtJsLogo } from '@/img/guides/nuxtjs.svg'
-// import { ReactComponent as ParcelLogo } from '@/img/guides/parcel.svg'
-// import { ReactComponent as PhoenixLogo } from '@/img/guides/phoenix.svg'
-// import { ReactComponent as RailsLogo } from '@/img/guides/rails.svg'
-// import { ReactComponent as RailsLogoWhite } from '@/img/guides/rails-white.svg'
-// import { ReactComponent as RemixLogo } from '@/img/guides/remix.svg'
-// import { ReactComponent as RemixLogoWhite } from '@/img/guides/remix-white.svg'
-// import { ReactComponent as SolidJSLogo } from '@/img/guides/solidjs.svg'
-// import { ReactComponent as SvelteLogo } from '@/img/guides/svelte.svg'
-// import { ReactComponent as SymfonyLogo } from '@/img/guides/symfony.svg'
-// import { ReactComponent as SymfonyLogoWhite } from '@/img/guides/symfony-white.svg'
-// import { ReactComponent as ViteLogo } from '@/img/guides/vite.svg'
+import { AdonisLogo } from '@/img/guides/adonis'
+import { AngularLogo } from '@/img/guides/angular'
+import { AngularLogoWhite } from '@/img/guides/angular-white'
+import { CraLogo } from '@/img/guides/cra'
+import { GatsbyLogo } from '@/img/guides/gatsby'
+import { LaravelLogo } from '@/img/guides/laravel'
+import { MeteorLogo } from '@/img/guides/meteor'
+import { NextJsLogo } from '@/img/guides/nextjs'
+import { NextJsLogoWhite } from '@/img/guides/nextjs-white'
+import { NuxtJsLogo } from '@/img/guides/nuxtjs'
+import { ParcelLogo } from '@/img/guides/parcel'
+import { PhoenixLogo } from '@/img/guides/phoenix'
+import { RailsLogo } from '@/img/guides/rails'
+import { RailsLogoWhite } from '@/img/guides/rails-white'
+import { RemixLogo } from '@/img/guides/remix'
+import { RemixLogoWhite } from '@/img/guides/remix-white'
+import { SolidJSLogo } from '@/img/guides/solidjs'
+import { SvelteLogo } from '@/img/guides/svelte'
+import { SymfonyLogo } from '@/img/guides/symfony'
+import { SymfonyLogoWhite } from '@/img/guides/symfony-white'
+import { ViteLogo } from '@/img/guides/vite'
 
 export default function FrameworkGuides() {
   return (
@@ -34,7 +34,7 @@ export default function FrameworkGuides() {
           in a number of popular environments. commented
         </p>
       </div>
-      {/* <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 xl:grid-cols-3">
+      <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 xl:grid-cols-3">
         {[
           {
             name: 'Next.js',
@@ -176,7 +176,7 @@ export default function FrameworkGuides() {
             <div className="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100" />
           </li>
         ))}
-      </ul> */}
+      </ul>
       <div className="mt-16 prose prose-slate max-w-3xl dark:prose-dark">
         <p>
           Don't see your framework of choice? Try using{' '}
