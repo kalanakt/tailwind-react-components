@@ -133,10 +133,7 @@ export function NavItems() {
         </Link>
       </li>
       <li>
-        <a
-          href="https://tailwindui.com/?ref=top"
-          className="hover:text-sky-500 dark:hover:text-sky-400"
-        >
+        <a href="/components" className="hover:text-sky-500 dark:hover:text-sky-400">
           Components
         </a>
       </li>
@@ -147,8 +144,13 @@ export function NavItems() {
       </li>
       <li>
         <Link href="/showcase">
+          <a className="hover:text-sky-500 dark:hover:text-sky-400">Showcase</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/templates">
           <a className="hover:text-sky-500 dark:hover:text-sky-400">
-            Showcase
+            Templates
             <span className="ml-2 font-medium text-xs leading-5 rounded-full text-sky-600 bg-sky-400/10 px-2 py-0.5  dark:text-sky-400">
               New
             </span>
