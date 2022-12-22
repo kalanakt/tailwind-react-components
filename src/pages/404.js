@@ -1,3 +1,5 @@
+import { Buttontest } from '@/components/Buttont'
+
 const css = `
   body {
     display: flex;

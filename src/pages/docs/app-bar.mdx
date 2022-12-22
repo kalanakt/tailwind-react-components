@@ -1,0 +1,41 @@
+---
+title: "App Bar"
+description: "Sliders allow users to make selections from a range of values."
+---
+
+import utilities from 'utilities?plugin=boxShadow'
+import { ArbitraryValues } from '@/components/ArbitraryValues'
+import { BreakpointsAndMediaQueries } from '@/components/BreakpointsAndMediaQueries'
+import { HoverFocusAndOtherStates } from '@/components/HoverFocusAndOtherStates'
+
+## Basic usage
+
+### Basic select
+
+<Example p="none">
+  <div class="flex flex-col gap-2 p-4">
+    <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choice Best</label>
+    <select id="countries" class="bg-gray-100 text-gray-700 dark:text-gray-300 dark:bg-slate-900 bg-opacity-20 w-fit py-1 px-3 border border-gray-300 text-sm rounded-lg focus:outline-none">
+    <option selected class="text-gray-700 dark:text-gray-300 hover:bg-green-300">React js</option>
+    <option value="US" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Vue js</option>
+    <option value="CA" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Next js</option>
+    <option value="FR" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Nuxt js</option>
+    <option value="DE" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Vw js</option>
+    </select>
+  </div>
+</Example>
+
+```html
+<label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choice Best</label>
+<select id="countries" class="bg-gray-100 text-gray-700 dark:text-gray-300 dark:bg-slate-900 bg-opacity-20 w-fit py-1 px-3 border border-gray-300 text-sm rounded-lg focus:outline-none">
+    <option selected class="text-gray-700 dark:text-gray-300 hover:bg-green-300">React js</option>
+    <option value="Vue" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Vue js</option>
+    <option value="Next" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Next js</option>
+    <option value="Nuxt" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Nuxt js</option>
+    <option value="Vw" class="text-gray-700 dark:text-gray-300 hover:bg-green-300">Vw js</option>
+</select>
+```
+
+## usage
+
+- [Check out pages](/docs/check-out-pages)
