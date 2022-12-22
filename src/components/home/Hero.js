@@ -9,7 +9,6 @@ import { useMedia } from '@/hooks/useMedia'
 import { wait } from '@/utils/wait'
 import { createInViewPromise } from '@/utils/createInViewPromise'
 import { tokens, code } from '../../samples/hero.html?highlight'
-import colors from 'tailwindcss/colors'
 
 const CHAR_DELAY = 75
 const GROUP_DELAY = 1000

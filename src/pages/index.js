@@ -1,4 +1,3 @@
-import { Testimonials } from '@/components/Testimonials'
 import { DarkMode } from '@/components/home/DarkMode'
 import { ConstraintBased } from '@/components/home/ConstraintBased'
 import { BuildAnything } from '@/components/home/BuildAnything'
@@ -21,7 +20,6 @@ import styles from './index.module.css'
 import clsx from 'clsx'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import socialCardLarge from '@/img/social-card-large.jpg'
-import Feature from '@/components/home/Feature'
 
 function Header() {
   return (
@@ -168,7 +166,10 @@ export default function Home() {
           property="og:title"
           content="Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
         />
-        <title>Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.</title>
+        <title>
+          Tailwind Components - Add Tailwind Css & React Components without messing up with react
+          Libraries.
+        </title>
       </Head>
       <div className="mb-8 space-y-10 overflow-hidden sm:mb-4 sm:space-y-32 md:mb-8 md:space-y-20">
         <Header />

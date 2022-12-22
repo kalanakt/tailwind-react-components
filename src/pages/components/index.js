@@ -1,10 +1,7 @@
-import { useRef } from 'react'
 import Link from 'next/link'
-import { showcase } from '@/showcase'
 import { components } from '@/components'
 import Image from 'next/future/image'
 import { Footer } from '@/components/Footer'
-import clsx from 'clsx'
 
 function Component({ components, priority = false }) {
   return (

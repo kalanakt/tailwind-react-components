@@ -322,7 +322,7 @@ let tabs = [
           code: `"scripts": {
 -   "dev": "next dev",
 -   "build": "next build",
-+   "dev": "concurrently \\\"next dev --turbo\\\" \\\"tailwindcss -i styles/globals.css -o styles/dist.css -w\\\"",
++   "dev": "concurrently \\"next dev --turbo\\" \\"tailwindcss -i styles/globals.css -o styles/dist.css -w\\"",
 +   "build": "tailwindcss -m -i styles/globals.css -o styles/dist.css && next build",
     "start": "next start",
     "lint": "next lint"

@@ -28,19 +28,21 @@ import seedrandom from 'seedrandom'
 
 const shuffleSeed = {}
 
-const seedify = function (seed) {
-  if (/(number|string)/i.test(Object.prototype.toString.call(seed).match(/^\[object (.*)\]$/)[1]))
+class seedify {
+  constructor(seed) {
+    if (/(number|string)/i.test(Object.prototype.toString.call(seed).match(/^\[object (.*)\]$/)[1]))
+      return seed
+    if (isNaN(seed))
+      return Number(
+        String((this.strSeed = seed))
+          .split('')
+          .map(function (x) {
+            return x.charCodeAt(0)
+          })
+          .join('')
+      )
     return seed
-  if (isNaN(seed))
-    return Number(
-      String((this.strSeed = seed))
-        .split('')
-        .map(function (x) {
-          return x.charCodeAt(0)
-        })
-        .join('')
-    )
-  return seed
+  }
 }
 
 const seedRand = function (func, min, max) {
@@ -75,9 +77,9 @@ shuffleSeed.unshuffle = function (arr, seed) {
   var resp = []
   var keys = []
 
-  for (var i = 0; i < size; i++) {
+  for (var j = 0; j < size; j++) {
     resp.push(null)
-    keys.push(i)
+    keys.push(j)
   }
 
   for (var i = 0; i < size; i++) {
