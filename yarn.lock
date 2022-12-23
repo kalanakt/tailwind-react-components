@@ -1742,6 +1742,11 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@vwjs/icons@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@vwjs/icons/-/icons-1.0.5.tgz#e80391f4aceb80e2a1e14d0da36f050978201080"
+  integrity sha512-lAbRsVATrFjfAn11BPnr89/cu6Sa88i7mCFnZ+Buf3AMjK2//Wv3nWgZv+IIeZUgoeVa4iNPBh074A3oTR3pKQ==
+
 "@zachleat/spider-pig@^3.0.0":
   version "3.0.0"
   resolved "https://registry.npmjs.org/@zachleat/spider-pig/-/spider-pig-3.0.0.tgz"

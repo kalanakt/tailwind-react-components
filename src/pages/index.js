@@ -425,7 +425,9 @@ function Header() {
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
               Classy
             </code>{' '}
-            Tailwind CSS Component With React, Don't Need to use 100s Of {' '}
+            Tailwind CSS Component With {' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">React,</code>{' '}
+            Don't Need to use 100s Of {' '}
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400">Libraries.</code>{' '}
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
