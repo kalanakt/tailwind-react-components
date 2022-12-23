@@ -24,7 +24,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <>
-      <footer aria-label="Site Footer" className="bg-transparent">
+      <footer aria-label="Site Footer" className="">
         <div className="max-w-screen-xl px-4 mx-auto pb-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
@@ -214,7 +214,7 @@ function Footer() {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
               <div>
-                <p className="font-medium text-gray-900">Services</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Services</p>
 
                 <nav aria-label="Footer Navigation - Services" className="mt-6">
                   <ul className="space-y-4 text-sm">
@@ -252,7 +252,7 @@ function Footer() {
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Company</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Company</p>
 
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">
@@ -278,7 +278,7 @@ function Footer() {
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Helpful Links</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Helpful Links</p>
 
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">
@@ -304,7 +304,7 @@ function Footer() {
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Legal</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Legal</p>
 
                 <nav aria-label="Footer Navigation - Legal" className="mt-6">
                   <ul className="space-y-4 text-sm">
@@ -419,15 +419,14 @@ function Header() {
             Rapidly build modern websites without ever leaving your HTML.
           </h1> */}
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
-            A Fast, User Friendly, Classy Tailwind CSS Component Library packed with classes like{' '}
-            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">card-4</code>,{' '}
-            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">p-4</code>,{' '}
+            Tailwind Css is Awsome! But is it fast ? . We Provide You To A {' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">Fast</code>,{' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">User Friendly</code>,{' '}
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
-              text-type-4
+              Classy
             </code>{' '}
-            and{' '}
-            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">rotate-90</code>{' '}
-            that can be used within tailwind css classes.
+            Tailwind CSS Component With React, Don't Need to use 100s Of {' '}
+            <code className="font-mono font-medium text-sky-500 dark:text-sky-400">Libraries.</code>{' '}
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
             <NextLink href="/docs/installation">
