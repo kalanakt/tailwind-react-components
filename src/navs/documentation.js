@@ -24,6 +24,7 @@ export const documentationNav = {
   INPUTS: [
     pages['button'],
     pages['checkbox'],
+    pages['rating'],
     pages['select'],
     pages['slider'],
     pages['switch'],
